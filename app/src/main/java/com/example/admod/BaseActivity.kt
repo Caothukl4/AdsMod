@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.FirebaseDatabase
 
 open class BaseActivity : AppCompatActivity() {
+
     protected var database: FirebaseDatabase? = null // Sửa thành protected để MainActivity có thể truy cập
 
     override fun onCreate(savedInstanceState: Bundle?) {
